@@ -47,8 +47,7 @@ int main()
         print(list[i],i+1);
     }
     while(1)
-    {
-        cout << "Another example is being made."; 
+    { 
         option();
         int reply;
         check1:
