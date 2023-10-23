@@ -31,7 +31,7 @@ void searchByPhoneNumber(callerInfo caller[], const string& phoneNumber);
 void searchByName(callerInfo caller[], const string& name);
 void modify(callerInfo []);
 void read(callerInfo []);
-void write(callerInfo[]);    
+void write(callerInfo[]);   
 int main()
 {
     callerInfo list[100];
@@ -48,6 +48,7 @@ int main()
     }
     while(1)
     {
+        cout << "Another example is being made."; 
         option();
         int reply;
         check1:
